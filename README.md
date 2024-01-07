@@ -1,4 +1,4 @@
-# Bryan Johnson's GWU Module 6 Pandas Assignment READ ME File
+# Bryan Johnson's GWU Module 9 SQL Assignment READ ME File
 
 ## This files for this assignment can be found at the following repo:
 https://github.com/bryanpijohnson/sql-challenge
