@@ -1,7 +1,7 @@
 # Bryan Johnson's GWU Module 6 Pandas Assignment READ ME File
 
 ## This files for this assignment can be found at the following repo:
-https://github.com/bryanpijohnson/python-api-challenge
+https://github.com/bryanpijohnson/sql-challenge
 
 ## Within the repo link, you will find the following folders and files to be reviewed and graded:
 
