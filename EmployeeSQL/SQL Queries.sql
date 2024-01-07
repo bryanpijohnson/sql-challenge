@@ -20,7 +20,7 @@ INNER JOIN departments AS d
 ON dm.dept_no = d.dept_no;
 
 -- Question 4: List the department number for each employee along with that employee’s employee number, last name, first name, and department name.
-SELECT d.dept_name, d.dept_no, e.last_name, e.first_name, e.emp_no
+SELECT d.dept_no, e.emp_no, e.last_name, e.first_name, d.dept_name
 FROM employees AS e
 INNER JOIN dept_emp AS de
 ON e.emp_no = de.emp_no
@@ -49,7 +49,6 @@ ON e.emp_no = de.emp_no
 INNER JOIN departments AS d
 ON de.dept_no = d.dept_no
 WHERE d.dept_name IN ('Sales', 'Development');
-
 
 -- Question 8: List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
 SELECT last_name, COUNT(*) AS count
